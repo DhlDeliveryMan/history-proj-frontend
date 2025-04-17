@@ -61,12 +61,6 @@ const Navbar: React.FC = () => {
             >
               Testi
             </Link>
-            <Link
-              to={"/about"}
-              className="px-3 py-2 rounded-md text-sm font-medium hover:bg-emerald-950"
-            >
-              Par projektu
-            </Link>
             {user ? (
               <>
                 <Link
@@ -119,7 +113,7 @@ const Navbar: React.FC = () => {
         } transition-transform duration-300 ease-in-out bg-gray-800 w-64 shadow-lg z-50`}
       >
         <div className="flex items-center justify-between p-4">
-          <h2 className="text-xl font-bold text-white">Menu</h2>
+          <h2 className="text-xl font-bold text-white">Navigācija</h2>
           <button
             type="button"
             className="text-gray-400 hover:text-white focus:outline-none"
@@ -143,28 +137,49 @@ const Navbar: React.FC = () => {
         </div>
         <nav className="mt-4 space-y-2">
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
           >
-            Home
+            Sākums
           </a>
           <a
-            href="#"
+            href="/vesture_proj_darbs.pdf"
             className="block px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
           >
-            About
+            Projekta darbs
+            <span className="ml-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 inline-block"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <g id="Interface / External_Link">
+                  <path
+                    id="Vector"
+                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                    stroke="#FFFFFF"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </span>
           </a>
           <a
-            href="#"
+            href="/tests"
             className="block px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
           >
-            Services
+            Testi
           </a>
           <a
-            href="#"
+            href="/auth"
             className="block px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
           >
-            Contact
+            Autentificēties
           </a>
         </nav>
       </div>
