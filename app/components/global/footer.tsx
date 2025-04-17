@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           <p>&copy; 2025 Artūrs Zītars. All rights reserved.</p>
           <div className="flex justify-center md:justify-end space-x-4 mt-2">
             <a
-              href="https://github.com/your-frontend-repo"
+              href="https://github.com/DhlDeliveryMan/history-proj-frontend"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:underline"
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               Frontend Repo
             </a>
             <a
-              href="https://github.com/your-backend-repo"
+              href="https://github.com/DhlDeliveryMan/history-proj-backend"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:underline"

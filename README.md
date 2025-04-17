@@ -20,7 +20,12 @@ This is the frontend repository for the `history-proj` project. It is designed t
    ```bash
    npm install
    ```
-4. Start the development server:
+4. Create and edit env file
+   ```bash
+   cp .env.example .env
+   nano .env
+   ```
+5. Start the development server:
    ```bash
    npm start
    ```
@@ -35,19 +40,4 @@ This is the frontend repository for the `history-proj` project. It is designed t
 
 ### Instalācija
 
-1. Klonējiet repozitoriju:
-   ```bash
-   git clone https://github.com/your-username/history-proj-frontend.git
-   ```
-2. Pārejiet uz projekta direktoriju:
-   ```bash
-   cd history-proj-frontend
-   ```
-3. Instalējiet atkarības:
-   ```bash
-   npm install
-   ```
-4. Sāciet izstrādes serveri:
-   ```bash
-   npm start
-   ```
+Skat. Installation
